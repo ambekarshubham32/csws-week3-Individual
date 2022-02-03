@@ -1,7 +1,7 @@
-num=[1,2,3,4,77,8888,100000,1000000]
+num=[]
 
 
-for elements in range(100):
+for elements in range(1000001):
     num.append(elements)
 
 print(max(num))
